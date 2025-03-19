@@ -1,0 +1,35 @@
+// Definindo variáveis para os caminhões
+const caminhao1 = {
+    marca: "Scania",
+    modelo: "R 450",
+    placa: "XYZ-1234",
+    descricao: "Caminhão de carga pesada, ideal para transporte de grandes volumes.",
+    cor: "Azul",
+    km: 80000
+};
+
+const caminhao2 = {
+    marca: "Volvo",
+    modelo: "FH 460",
+    placa: "ABC-5678",
+    descricao: "Caminhão de alta performance e grande capacidade de carga.",
+    cor: "Branco",
+    km: 65000
+};
+
+// Imprimindo os dados dos caminhões no console
+console.log("Dados do Caminhão 1:");
+console.log("Marca: " + caminhao1.marca);
+console.log("Modelo: " + caminhao1.modelo);
+console.log("Placa: " + caminhao1.placa);
+console.log("Descrição: " + caminhao1.descricao);
+console.log("Cor: " + caminhao1.cor);
+console.log("Quilometragem: " + caminhao1.km + " km");
+
+console.log("\nDados do Caminhão 2:");
+console.log("Marca: " + caminhao2.marca);
+console.log("Modelo: " + caminhao2.modelo);
+console.log("Placa: " + caminhao2.placa);
+console.log("Descrição: " + caminhao2.descricao);
+console.log("Cor: " + caminhao2.cor);
+console.log("Quilometragem: " + caminhao2.km + " km");
